@@ -1,13 +1,13 @@
 import {Metadata} from "next"
 import {FC} from "react"
 import JWT from "@/components/auth/JWT"
-import Dashboard from "./Dashboard"
+import Component from "./Dashboard"
 
 export const metadata: Metadata = {
-  title: 'Dashbord',
+  title: 'Dashboard',
   description: 'View dashboard',
 }
 
-const ProtectedDashboard: FC = () => <JWT required={true} redirect='/dashboard/auth'><Dashboard /></JWT>
+const Page: FC = () => <JWT required={true} redirect='/dashboard/auth'><Component /></JWT>
 
-export default ProtectedDashboard
+export default Page

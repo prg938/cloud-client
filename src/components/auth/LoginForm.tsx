@@ -34,13 +34,13 @@ const login = async (
     })
     router.replace('/dashboard')
   }
-  catch(_) {
+  catch(_: any) {
     setButtonDisabled(false)
     setButtonText(BUTTON.ENTER)
     console.warn(_)
     notification.error({
       message: 'ошибка!',
-      description: 'такого пользователя не существует',
+      description: _?.message || String(_),
       duration: 2
     })
   }

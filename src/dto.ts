@@ -25,3 +25,16 @@ export interface MeDTO {
 }
 
 export interface RegisterResponseDTO extends LoginResponseDTO {}
+
+export interface User {
+
+}
+export interface FileEntity {
+  id: number
+  filename: string
+  originalName: string
+  size: number
+  mimeType: string
+  user: MeDTO
+  deletedAt: string | null
+}

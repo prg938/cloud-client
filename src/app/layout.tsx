@@ -6,8 +6,8 @@ import StyledComponentsRegistry from '@/components/lib/AntdRegistry'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Cloud Service',
-  description: 'Nest Cloud with Nest framework',
+  title: 'Cloudify beta',
+  description: 'Store your file/s in cloud',
 }
 
 export default function RootLayout({

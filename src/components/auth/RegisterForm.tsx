@@ -32,13 +32,13 @@ const register = async (
     })
     router.replace('/dashboard')
   }
-  catch(_) {
+  catch(_: any) {
     setButtonDisabled(false)
     setButtonText(BUTTON.REG)
     console.warn(_)
     notification.error({
       message: 'ошибка!',
-      description: 'не удалось зарегистрировать пользователя',
+      description: _?.message || String(_),
       duration: 2
     })
   }
