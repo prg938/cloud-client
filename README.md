@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![cloudify_ico](https://github.com/prg938/cloud-client/assets/7237762/398a7e43-296b-43e2-8419-d51af8381d0a)
+ ![ezgif-5-83ab4c0e74](https://github.com/prg938/cloudify-client/assets/7237762/fc956908-2273-474c-8d8d-45f2a136a6c6)
+
 
 
 ## Frontend part: 
